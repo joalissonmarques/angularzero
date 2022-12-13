@@ -1,2 +1,5 @@
-<h2>Aprofundando os conhecimentos em texto</h2>
-<p>{{ nome }}</p>
+<h2>Aprofundando os conhecimentos em texto de novo</h2>
+<img [src]="urlImage" alt="Cyberpunk" width="500">
+<p>nome: {{ nome | uppercase }}</p>
+<p>Data de nascimento: {{ dataNascimento | date: "dd/MM/yyyy" }}</p>
+<button (click)="mostrarDataNascimento()" type="button">Mostrar data de nascimento</button>
